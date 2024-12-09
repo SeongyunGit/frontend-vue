@@ -17,6 +17,8 @@ export default defineConfig({
   },
   build: {
       outDir: "../jwt-tutorial/src/main/resources/static",
+      outDir: 'dist', 
+      assetsDir: 'assets',
     }, // 빌드 결과물이 생성되는 경로
     server: {
       proxy: {
